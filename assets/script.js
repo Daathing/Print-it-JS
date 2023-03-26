@@ -91,31 +91,8 @@ function updateActiveText() {
 	});
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-function updateActiveImage() {
-	slides.forEach((image, index) => {
-	  if (index === indexSlide) {
-		image.classList.add("active");
-	  } else if (image.classList.contains("active")) {
-		image.classList.remove("active");
-	  }
-	  console.log("scrollLeft")
-	});
-}
-   */
+document.addEventListener("DOMContentLoaded", function() {
+    updateActiveImage();
+    updateActiveBullet();
+    updateActiveText();
+});
