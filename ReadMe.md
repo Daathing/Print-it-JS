@@ -1,1 +1,1 @@
-# Print-It WebSite v.1
+# https://daathing.github.io/print-it-js 
